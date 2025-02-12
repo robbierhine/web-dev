@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+  }
+  
+  .box{
+    background: yellowgreen;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 8px;
+  }
+  
+  body{
+    font-family: OCR A Std, monospace;
+  }
+  
+  h1{
+    font-size: 24px
+  }
+  
+  h3{
+    font-size: 16px
+  }
+  
+  p{
+    font-size: 12px
+  }
+  

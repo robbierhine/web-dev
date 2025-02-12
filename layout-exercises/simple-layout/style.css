@@ -1,0 +1,22 @@
+*{
+    margin: 0px
+  }
+  
+  .columns{
+    display: flex;
+    border: 2px solid black;
+  }
+  
+  .column-one {
+    background-color: lightblue;
+    width: 30vw;
+    height: 100vh;
+    padding: 15px;
+  }
+  
+  .column-two {
+    background-color: green;
+    width: 70vw;
+    height: 100vh;
+    padding: 15px;
+  }
