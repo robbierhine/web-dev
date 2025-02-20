@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+/* @font-face{
+  font:fam
+} */
+
+video{
+  object-fit: fill;
+}
+
+.grid-container{
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 400px);
+  }
+  
+  .grid-item{
+    background-color: lightblue;
+    border: 5px white solid;
+    height: 400px;
+    width: auto;
+  }
+  
+  .grid-item-1{
+    grid-column: span 2;
+  }
+  
+  .grid-item-13{
+    grid-column: span 2;
+  }
+  
+  .grid-item-24{
+    grid-column: span 2;
+  }
+  
+  .grid-item-34{
+    grid-column: span 2;
+  }
