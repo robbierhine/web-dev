@@ -2,9 +2,10 @@
   margin: 0;
 }
 
-/* @font-face{
-  font:fam
-} */
+@font-face {
+  font-family: "Franklin Gothic";
+  src:url("<franklin-gothic-heavy-italic.ttf file>") format('truetype');
+}
 
 video{
   object-fit: fill;
@@ -17,7 +18,6 @@ video{
   }
   
   .grid-item{
-    background-color: lightblue;
     border: 5px white solid;
     height: 400px;
     width: auto;
