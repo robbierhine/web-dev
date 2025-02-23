@@ -4,9 +4,26 @@
 
 @font-face {
   font-family: "Franklin Gothic";
-  src:url("<franklin-gothic-heavy-italic.ttf file>") format('truetype');
+  src: url("franklin-gothic-heavy-italic.ttf");
 }
 
+h1{
+ font-family: "Franklin Gothic";
+  font-size: 75px;
+}
+
+h3{
+  font-family: "Franklin Gothic";
+  font-size: 50px;
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+}
+a{
+  color: black;
+}
 video{
   object-fit: fill;
 }
@@ -18,23 +35,29 @@ video{
   }
   
   .grid-item{
-    border: 5px white solid;
+    /*border: 5px white solid;  */
+    gap: 10%;
+    row-gap: 1ch;
     height: 400px;
     width: auto;
   }
   
   .grid-item-1{
     grid-column: span 2;
+    align-content: center;
+    padding-left: 10px;
   }
   
   .grid-item-13{
     grid-column: span 2;
+    padding: 20px;
+    padding-top: 30px;
   }
   
   .grid-item-24{
-    grid-column: span 2;
+    grid-column: span 3;
   }
   
   .grid-item-34{
-    grid-column: span 2;
+    grid-column: span 3;
   }
