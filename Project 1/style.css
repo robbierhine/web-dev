@@ -32,12 +32,13 @@ video{
     display: grid; 
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 400px);
+    row-gap: 1ch;
+    border: 40px white solid;
   }
   
   .grid-item{
-    /*border: 5px white solid;  */
-    gap: 10%;
-    row-gap: 1ch;
+    gap: 1ch;
+    row-gap: 1em;
     height: 400px;
     width: auto;
   }
@@ -45,13 +46,12 @@ video{
   .grid-item-1{
     grid-column: span 2;
     align-content: center;
-    padding-left: 10px;
   }
   
   .grid-item-13{
     grid-column: span 2;
     padding: 25px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
   
   .grid-item-24{
