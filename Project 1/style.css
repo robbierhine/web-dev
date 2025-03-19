@@ -43,7 +43,6 @@ video{
     width: auto;
   }
 
-
   .grid-item-1{
     grid-column: span 2;
     align-content: center;
