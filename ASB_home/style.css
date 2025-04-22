@@ -1,0 +1,58 @@
+body{
+    background-image: url("AnnSofieBack_SS11_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 150%;
+}
+
+@font-face {
+    font-family: "Gothic Rounded";
+    src: "gothamrnd_bold.otf";
+  }
+
+@font-face {
+    font-family: "Franklin Gothic";
+    src: "franklin-gothic-heavy-italic.ttf";
+}
+
+@font-face {
+    font-family: "GBI";
+    src: "gbi.TTF";
+  }
+
+
+@font-face {
+    font-family: "Shlop";
+    src: url("shloprg.ttf");
+  }
+
+@font-face {
+    font-family: "Arcade";
+    src: url("ARCADECLASSIC.TTF");
+  }
+
+a{
+    color: black;
+}
+
+.launch{
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* text-align:center; */
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 96px;
+}
