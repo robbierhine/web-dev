@@ -1,0 +1,152 @@
+* {
+    margin: 10px;
+  }
+  
+  h1{
+    font-size: 78px;
+  }
+  .container-1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  h2{
+    font-size: 72px;
+  }
+  
+  h3{
+    font-size: 26px;
+  }
+
+  h4{
+    font-size: 46px;
+  }
+
+  h5{
+    font-size: 44px;
+  }
+
+  h6{
+    font-size: 37px;
+  }
+
+  p{
+    font-size: 30px;
+  }
+
+  .collection-info{
+    /* // position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+  
+  .dragme{
+              position:relative;
+              width: 300px;
+              height: 400px;
+              cursor: move;
+        /* // display: flex;
+        // flex-direction: column;
+        // justify-content: flex-start;
+        // align-items: center;
+        // gap: 16px; */
+          }
+      #draggable {
+              background-color: #ccc;
+              border: 1px solid #000;
+          }
+  
+  .container-2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .info-box-2{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    justify-content: center;
+    padding: 24px;
+  }
+  
+  .container-3 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .info-box-3{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+
+  .container-4 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .info-box-4{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+  
+  .container-5 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .info-box-5{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+
+
+  .container-6 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .info-box-6{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+
+  .container-7 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .info-box-7{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
+
+  .container-8 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .info-box-8{
+    /* position: absolute; */
+    height: 400px;
+    width: 400px;
+    /* border: 1px black solid; */
+    padding: 24px;
+  }
