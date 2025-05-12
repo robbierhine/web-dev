@@ -1,3 +1,23 @@
+const hamburger = document.getElementById('hamburger');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+hamburger.addEventListener('click', () => {
+  if (dropdownMenu.style.display === 'block') {
+    dropdownMenu.style.display = 'none';
+  } else {
+    dropdownMenu.style.display = 'block';
+  }
+});
+
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY + window.innerHeight;
+    const page1Height = document.getElementById('page1').offsetHeight;
+
+    if (scrollPosition >= page1Height) {
+        document.getElementById('page2').classList.add('active');
+    }
+});
+
 const fonts = ['GBI', 'Franklin Gothic', 'Shlop', 'Arcade'];
 
 const element = document.getElementById('myText');
