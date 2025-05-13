@@ -88,6 +88,61 @@ const imageGroups = {
         details: ["asb_fw08_detail2_look18.jpeg"]
     },
 
+    "image19": {
+        main: "ann_sofie_back_aw08_19.jpeg",
+        details: ["asb_fw08_detail1_look19.jpeg", "asb_fw08_detail2_look19.jpeg"]
+    },
+
+    "image20": {
+        main: "ann_sofie_back_aw08_20.jpeg",
+        details: ["asb_fw08_detail1_look20.jpeg", "asb_fw08_detail2_look20.jpeg"]
+    },
+
+    "image21": {
+        main: "ann_sofie_back_aw08_21.jpeg",
+        details: ["asb_fw08_detail1_look21.jpeg"]
+    },
+
+    "image22": {
+        main: "ann_sofie_back_aw08_22.jpeg",
+        details: ["asb_fw08_detail1_look22.jpeg"]
+    },
+
+    "image23": {
+        main: "ann_sofie_back_aw08_23.jpeg",
+        details: ["asb_fw08_detail1_look23.jpeg"]
+    },
+
+    "image24": {
+        main: "ann_sofie_back_aw08_24.jpeg",
+        details: ["asb_fw08_detail1_look24.jpeg", "asb_fw08_detail2_look24.jpeg"]
+    },
+
+    "image25": {
+        main: "ann_sofie_back_aw08_25.jpeg",
+        details: ["asb_fw08_detail1_look25.jpeg"]
+    },
+
+    "image26": {
+        main: "ann_sofie_back_aw08_26.jpeg",
+        details: ["asb_fw08_detail1_look26.jpeg"]
+    },
+
+    "image27": {
+        main: "ann_sofie_back_aw08_27.jpeg",
+        details: ["asb_fw08_detail1_look27.jpeg", "asb_fw08_detail2_look27.jpeg"]
+    },
+
+    "image28": {
+        main: "ann_sofie_back_aw08_28.jpeg",
+        details: ["asb_fw08_detail1_look28.jpeg"]
+    },
+
+    "image29": {
+        main: "ann_sofie_back_aw08_29.jpeg",
+        details: ["asb_fw08_detail1_look29.jpeg", "asb_fw08_detail2_look29.jpeg"]
+    },
+
     "image30": {
         main: "ann_sofie_back_aw08_30.jpeg",
         details: ["asb_fw08_detail1_look30.jpeg", "asb_fw08_detail2_look30.jpeg"]

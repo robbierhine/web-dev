@@ -10,22 +10,33 @@
 h1{
  font-family: "Franklin Gothic";
   font-size: 75px;
+  color: white;
 }
 
 h3{
   font-family: "Franklin Gothic";
   font-size: 50px;
+  color: white;
 }
 
 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 24px;
 }
+
 a{
-  color: black;
+  color: white;
 }
+
 video{
   object-fit: fill;
+  width: 100%;
+}
+
+.credits{
+  font-family: "Franklin Gothic";
+  font-size: 20px;
+  color:white
 }
 
 .grid-container{
@@ -33,6 +44,7 @@ video{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 400px);
     row-gap: 1ch;
+    column-gap: 1ch;
     border: 40px white solid;
   }
   
@@ -46,6 +58,8 @@ video{
   .grid-item-1{
     grid-column: span 2;
     align-content: center;
+    background-color: red;
+    row-gap: 1em;
   }
 
   .grid-item-2:hover{
